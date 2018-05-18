@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Layer", "1 - Presentation Layer", "{60B4DDEA-63A3-49A8-9B5C-5ECE62CFAB39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Distributed Services Layer", "2 - Distributed Services Layer", "{3610C4E2-674D-49C9-BA2A-C5A31665FF5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application Layer", "3 - Application Layer", "{5064AD95-A64A-4B2A-B6CD-20DEAF4477B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{EA07C345-608B-4E08-BE44-960E1741D285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure Layer", "5 - Infrastructure Layer", "{C09C447A-516D-4CC0-A2A2-CDF83C3DB585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5EC8C75B-E351-4C38-B9E3-3FDF2AE159D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Domain", "Loterica.Domain\Loterica.Domain.csproj", "{B5EE39CB-1967-4D45-99A6-BD2DC0A4695D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Domain.Tests", "Loterica.Domain.Tests\Loterica.Domain.Tests.csproj", "{FED33A6D-6C18-4888-BE5B-35E26B834DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Common.Tests", "Loterica.Common.Tests\Loterica.Common.Tests.csproj", "{61722A0C-A6F7-4DD2-A52E-C2FF75EB2E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Applications", "Loterica.Applications\Loterica.Applications.csproj", "{9BD07CAD-5542-42A7-B34C-CF075DB6EACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Applications.Tests", "Loterica.Applications.Tests\Loterica.Applications.Tests.csproj", "{CA1B40AD-390F-462C-9AF3-DAFDD5B20A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Infra", "Loterica.Infra\Loterica.Infra.csproj", "{1FF8767A-97DA-4FC2-A8B9-E45E3CF7A595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Infra.Data", "Loterica.Infra.Data\Loterica.Infra.Data.csproj", "{7642A210-2548-4148-BC7B-30033DED2955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterica.Infra.Data.Tests", "Loterica.Infra.Data.Tests\Loterica.Infra.Data.Tests.csproj", "{DB26B75D-3685-47A9-984B-BDE9B5EFC087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5EE39CB-1967-4D45-99A6-BD2DC0A4695D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EE39CB-1967-4D45-99A6-BD2DC0A4695D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EE39CB-1967-4D45-99A6-BD2DC0A4695D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EE39CB-1967-4D45-99A6-BD2DC0A4695D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED33A6D-6C18-4888-BE5B-35E26B834DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED33A6D-6C18-4888-BE5B-35E26B834DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED33A6D-6C18-4888-BE5B-35E26B834DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED33A6D-6C18-4888-BE5B-35E26B834DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61722A0C-A6F7-4DD2-A52E-C2FF75EB2E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61722A0C-A6F7-4DD2-A52E-C2FF75EB2E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61722A0C-A6F7-4DD2-A52E-C2FF75EB2E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61722A0C-A6F7-4DD2-A52E-C2FF75EB2E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD07CAD-5542-42A7-B34C-CF075DB6EACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD07CAD-5542-42A7-B34C-CF075DB6EACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD07CAD-5542-42A7-B34C-CF075DB6EACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD07CAD-5542-42A7-B34C-CF075DB6EACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B40AD-390F-462C-9AF3-DAFDD5B20A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B40AD-390F-462C-9AF3-DAFDD5B20A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B40AD-390F-462C-9AF3-DAFDD5B20A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B40AD-390F-462C-9AF3-DAFDD5B20A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF8767A-97DA-4FC2-A8B9-E45E3CF7A595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF8767A-97DA-4FC2-A8B9-E45E3CF7A595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF8767A-97DA-4FC2-A8B9-E45E3CF7A595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF8767A-97DA-4FC2-A8B9-E45E3CF7A595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7642A210-2548-4148-BC7B-30033DED2955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7642A210-2548-4148-BC7B-30033DED2955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7642A210-2548-4148-BC7B-30033DED2955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7642A210-2548-4148-BC7B-30033DED2955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB26B75D-3685-47A9-984B-BDE9B5EFC087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB26B75D-3685-47A9-984B-BDE9B5EFC087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB26B75D-3685-47A9-984B-BDE9B5EFC087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB26B75D-3685-47A9-984B-BDE9B5EFC087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5EE39CB-1967-4D45-99A6-BD2DC0A4695D} = {EA07C345-608B-4E08-BE44-960E1741D285}
+		{FED33A6D-6C18-4888-BE5B-35E26B834DEA} = {5EC8C75B-E351-4C38-B9E3-3FDF2AE159D6}
+		{61722A0C-A6F7-4DD2-A52E-C2FF75EB2E2E} = {5EC8C75B-E351-4C38-B9E3-3FDF2AE159D6}
+		{9BD07CAD-5542-42A7-B34C-CF075DB6EACB} = {5064AD95-A64A-4B2A-B6CD-20DEAF4477B2}
+		{CA1B40AD-390F-462C-9AF3-DAFDD5B20A6D} = {5EC8C75B-E351-4C38-B9E3-3FDF2AE159D6}
+		{1FF8767A-97DA-4FC2-A8B9-E45E3CF7A595} = {C09C447A-516D-4CC0-A2A2-CDF83C3DB585}
+		{7642A210-2548-4148-BC7B-30033DED2955} = {C09C447A-516D-4CC0-A2A2-CDF83C3DB585}
+		{DB26B75D-3685-47A9-984B-BDE9B5EFC087} = {5EC8C75B-E351-4C38-B9E3-3FDF2AE159D6}
+	EndGlobalSection
+EndGlobal
